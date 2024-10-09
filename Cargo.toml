@@ -1,0 +1,19 @@
+[package]
+name    = "tiny_logger"
+description = "Tiny logging library featuring colored output, adjustable verbosity levels, thread-safe logging streams, and channels."
+authors = ["Robert Jacobson <rljacobson@gmail.com>"]
+version = "0.2.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+readme  = "Readme.md"
+repository = ""
+#publish = false
+
+keywords   = ["logging", "logger", "log"]
+categories = ["development-tools::debugging", "development-tools"]
+
+
+[dependencies]
+lazy_static = "1.4.0"
+yansi       = "1.0.1"  # ANSI color support for logging to terminal
+
