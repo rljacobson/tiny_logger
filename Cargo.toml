@@ -6,9 +6,8 @@ version = "0.2.0"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 readme  = "Readme.md"
-repository = ""
-#publish = false
 
+repository = "https://github.com/rljacobson/tiny_logger"
 keywords   = ["logging", "logger", "log"]
 categories = ["development-tools::debugging", "development-tools"]
 
